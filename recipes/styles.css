@@ -1,0 +1,19 @@
+* {
+    background-color: #ededed;
+    font-family: Garamond, Georgia, serif;
+}
+
+.titles {
+    color: #e24a50;
+    font-size: 40px;
+}
+.subtext {
+    color: #4abc3e;
+}
+.small-subtext {
+    color: #646262;
+}
+img {
+    height: auto;
+    width: 500px;
+}

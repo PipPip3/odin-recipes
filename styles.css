@@ -1,0 +1,33 @@
+* {
+    background-color: #ededed;
+    font-family: Garamond, Georgia, serif;
+}
+
+.titles {
+    color: #e24a50;
+    font-size: 50px;
+    text-align: center;
+}
+.subtext {
+    color: #646262;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.button {
+    background-color: #4abc3e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+

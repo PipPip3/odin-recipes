@@ -3,19 +3,31 @@
     <head>
         <title>Odin Recipes</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
     </head>
 
     <body>
-        <h1>Odin Recipes by Pip</h1>
+        <h1 class="titles">Odin Recipes by Pip</h1>
 
-        <img src="./img/chef.gif" alt="A cartoon chef stirring a pot of food in a kitchen">
+        <img src="./img/chef.gif" alt="A cartoon chef stirring a pot of food in a kitchen" class="center">
         
-        <h2>This small collection of recipes will help to prepare you for your next cooking test</h2>
-        <ul>
-            <li><a href="recipes/poached-egg.html">The Perfect Poached Egg</a></li>
-            <li><a href="recipes/souffle.html">The Splendid Souffle</a></li>
-            <li><a href="recipes/roasted-fish.html">The Flawlessly Roasted Fish</a>
-            </li>
-        </ul>
+        <h2 class="subtext">A small collection of recipes to test your cooking skills</h2>
+        
+        <button onclick="location.href='recipes/poached-egg.html'" class="button">
+            Poached Eggs
+        </button>
+
+        <button onclick="location.href='recipes/souffle.html'" class="button">
+            Souffle
+        </button>
+
+        <button onclick="location.href='recipes/roasted-fish.html'" class = "button">
+            Roasted Fish
+        </button>
     </body>
 </html>
